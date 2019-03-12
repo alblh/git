@@ -1,0 +1,26 @@
+git init -> crear un proyecto nuevo, empezar a utilizar git
+git add <file> -> para pasar los archivos del working directory al staging area
+git add . -> agrega todos los archivos del entorno de trabajo
+git status -> ver estado de los archivos
+git commit -> pasar archivos del staging area al repositorio
+i -> insertar comentario
+ESC -> :wq
+git commit -m "Texto del comentario" -> Asi evitamos entrar en el editor del commit
+git branch -> creo una versión master
+git branch nombrealternativo -> creo una versión alternativa de la master
+git checkout nombrealternativo -> cambio de la versión master a la versión alternativa
+git log -> me da la información del cambio realizado, por quien, y el comentario
+git checkout -- nombrearchivo -> deshace los cambios realizados
+git diff nombrearchivo -> me dice los cambios que se han realizado desde la ultima version guardada
+git push -> para subirlo a un repositorio remoto
+git pull -> trae los cambios hechos por los otros desarrolladores
+git clone -> hace una copia de los archivos del servidor a tu computadora para empezar a trabajar
+
+ls -> listar
+pwd -> ruta en la que estamos
+cd -> cambiar de directorio
+
+git config --global user.email "usuario@email.com"
+git config --globar user.name "Alberto"
+
+archivo .gitignore, se crea manualmente y es para decirle a git que archivos o carpetas queremos que ignore y no los tenga en cuenta.
